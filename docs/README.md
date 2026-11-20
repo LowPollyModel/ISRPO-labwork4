@@ -85,6 +85,16 @@ output: 40
 <br>
 output: 0.0
 
+## Running the tests
+
+From the project root, run:
+
+```sh
+python3 -m unittest discover -v
+```
+
+The suite runs 12 tests: six for the square and six for the circle. A successful run ends with `OK`.
+
 ## Commit's hash:
 |Hash| Comment|
 |:---:|:-------|
@@ -92,6 +102,5 @@ output: 0.0
 |d078c8d| L-03: Docs added|
 |e631c17| Added descriptions for each function in file circle.py|
 |715f480| Added descriptions for each function in file square.py|
-
-
-
+|e2f0419| Added square unit tests |
+|26e1eb4| Added circle unit tests |
