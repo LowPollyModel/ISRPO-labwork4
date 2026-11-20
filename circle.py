@@ -14,4 +14,5 @@ def main():
     print(area(int(input())))
     print(perimeter(int(input())))
     
-main()
+if __name__ == "__main__":
+    main()
