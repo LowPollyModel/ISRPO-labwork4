@@ -1,0 +1,16 @@
+
+def area(a):
+    #Получаем на вход сторону квадрата. Возвращаем площадь фигуры
+    return a * a
+
+
+def perimeter(a):
+    #Получаем на вход сторону квадрата. Возвращаем периметр фигуры
+    return 4 * a
+
+ 
+def main():
+    print(area(int(input())))
+    print(perimeter(int(input())))
+    
+main()
