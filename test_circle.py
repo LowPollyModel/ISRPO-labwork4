@@ -22,3 +22,8 @@ class CircleTestCase(unittest.TestCase):
 
     def test_perimeter_zero(self):
         self.assertAlmostEqual(circle.perimeter(0), 0)
+
+    def test_area_negative(self):
+        with self.assertRaises(ValueError):
+            circle.area(-1)
+            

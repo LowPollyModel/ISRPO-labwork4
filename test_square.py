@@ -21,3 +21,7 @@ class SquareTestCase(unittest.TestCase):
 
     def test_perimeter_zero(self):
         self.assertEqual(square.perimeter(0), 0)
+
+    def test_area_negative(self):
+        with self.assertRaises(ValueError):
+            square.area(-1)
